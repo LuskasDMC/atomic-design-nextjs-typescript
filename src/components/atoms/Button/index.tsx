@@ -1,11 +1,11 @@
-import React from "react";
+import React, { memo } from "react";
 
 interface IButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
 
 const Button: React.FC<IButtonProps> = ({ children, className, ...rest }) => (
   <button
     className={
-      "rounded-sm focus:outline-none bg-blue-600 h-8 w-full flex items-center justify-center disabled:opacity-50 " +
+      "rounded-sm focus:outline-none bg-blue-500 h-8 w-full flex items-center justify-center disabled:opacity-50 " +
       className
     }
     {...rest}
@@ -14,4 +14,4 @@ const Button: React.FC<IButtonProps> = ({ children, className, ...rest }) => (
   </button>
 );
 
-export default Button;
+export default memo(Button);
