@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import Card from "../../atoms/Card";
 import LoginForm from "../../molecules/LoginForm";
+import LogInFacebook from "../../molecules/LogInFacebook";
 import Divider from "../../atoms/Divider";
 
 const LoginCard: React.FC = () => {
@@ -21,6 +22,7 @@ const LoginCard: React.FC = () => {
       </picture>
       <LoginForm />
       <Divider text="OU" className="mt-4" />
+      <LogInFacebook className="my-5" />
     </Card>
   );
 };

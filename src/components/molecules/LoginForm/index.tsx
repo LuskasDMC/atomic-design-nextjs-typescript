@@ -23,7 +23,7 @@ const LoginForm: React.FC = () => {
   };
 
   return (
-    <form className="flex flex-col">
+    <form className="flex flex-col w-full">
       <Input className="mb-2" name="userName" onChange={handleChange} />
       <Input className="mb-4" name="password" onChange={handleChange} />
       <Button disabled={buttonIsDisabled}>Entrar</Button>
