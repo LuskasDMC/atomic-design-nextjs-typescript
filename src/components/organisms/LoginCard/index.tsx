@@ -3,6 +3,7 @@ import Image from "next/image";
 
 import Card from "../../atoms/Card";
 import LoginForm from "../../molecules/LoginForm";
+import Divider from "../../atoms/Divider";
 
 const LoginCard: React.FC = () => {
   return (
@@ -19,6 +20,7 @@ const LoginCard: React.FC = () => {
         />
       </picture>
       <LoginForm />
+      <Divider text="OU" className="mt-4" />
     </Card>
   );
 };

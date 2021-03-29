@@ -1,5 +1,5 @@
 import React from "react";
-
+import "./styles.module.css";
 interface IInputProps extends React.InputHTMLAttributes<HTMLInputElement> {}
 
 const Input: React.FC<IInputProps> = ({ className, ...rest }) => {
