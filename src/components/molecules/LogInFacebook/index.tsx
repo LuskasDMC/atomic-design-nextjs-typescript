@@ -16,7 +16,7 @@ const LogInFacebook: React.FC<LogInFacebookProps> = ({ className }) => (
     <img
       src="/facebook-icon.png"
       alt="facebook-icon"
-      className="text-blue-700 font-bold w-6 mr-2"
+      className="text-blue-700 font-bold w-5 mr-2"
     />
     Entrar com o Facebook
   </Hiperlink>

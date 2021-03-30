@@ -1,14 +1,15 @@
 import React from "react";
 import Image from "next/image";
 
-import Card from "../../atoms/Card";
 import LoginForm from "../../molecules/LoginForm";
 import LogInFacebook from "../../molecules/LogInFacebook";
 import Divider from "../../atoms/Divider";
+import Card from "../../atoms/Card";
+import Hiperlink from "../../atoms/Hiperlink";
 
 const LoginCard: React.FC = () => {
   return (
-    <Card className="flex flex-col items-center p-10 w-96">
+    <Card className="flex flex-col items-center p-7 w-80">
       <picture className="mb-6">
         <Image
           src="/instagram-logo.png"
@@ -23,6 +24,9 @@ const LoginCard: React.FC = () => {
       <LoginForm />
       <Divider text="OU" className="mt-4" />
       <LogInFacebook className="my-5" />
+      <Hiperlink url="#" className="text-xs	text-blue-500">
+        Esqueceu a senha?
+      </Hiperlink>
     </Card>
   );
 };

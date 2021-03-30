@@ -8,7 +8,7 @@ import Hiperlink from "../components/atoms/Hiperlink";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen bg-gray-50 p-20">
+    <div className="w-screen h-screen bg-gray-50 p-10">
       <Head>
         <title>Instagram clone - Atomic Design</title>
       </Head>
