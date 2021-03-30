@@ -13,8 +13,12 @@ interface IHiperlinkListProps {
 
 const HiperlinkList: React.FC<IHiperlinkListProps> = ({ items }) => (
   <div className="flex flex-wrap	 justify-center">
-    {items.map((item) => (
-      <Hiperlink url={item.url} className="text-xs text-gray-400 p-3">
+    {items.map((item, index) => (
+      <Hiperlink
+        url={item.url}
+        key={index}
+        className="text-xs text-gray-400 p-3"
+      >
         {item.text}
       </Hiperlink>
     ))}

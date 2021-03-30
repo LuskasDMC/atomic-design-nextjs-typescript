@@ -2,6 +2,7 @@
   "name": "nextjs-tailwindcss-storybook",
   "version": "1.0.0",
   "private": false,
+  "license": "MIT",
   "author": {
     "email": "raphael.mansuy@elitizon.com",
     "name": "raphael mansuy",

@@ -8,11 +8,11 @@ import Hiperlink from "../components/atoms/Hiperlink";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen bg-gray-50 p-10">
+    <div className="w-screen h-screen bg-gray-50">
       <Head>
         <title>Instagram clone - Atomic Design</title>
       </Head>
-      <main className="flex flex-col items-center justify-center flex-grow">
+      <main className="flex flex-col items-center justify-center flex-grow flex-grow	pt-20">
         <LoginCard />
         <Card className="flex items-center justify-center my-3  p-5 w-96">
           Não tem uma conta ? &nbsp;
