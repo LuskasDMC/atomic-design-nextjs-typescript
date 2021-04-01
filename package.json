@@ -3,11 +3,6 @@
   "version": "1.0.0",
   "private": false,
   "license": "MIT",
-  "author": {
-    "email": "raphael.mansuy@elitizon.com",
-    "name": "raphael mansuy",
-    "url": "https://www.elitizon.com"
-  },
   "keywords": [
     "react",
     "nextjs",
@@ -20,9 +15,7 @@
     "build": "cross-env NODE_ENV=production next build",
     "start": "next start",
     "export": "next export",
-    "test": "jest --watch",
-    "storybook": "start-storybook -p 6006 -s public",
-    "build-storybook": "build-storybook -s public"
+    "test": "jest --watch"
   },
   "dependencies": {
     "next": "10.0.5",
